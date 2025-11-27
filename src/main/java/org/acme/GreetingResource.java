@@ -17,7 +17,7 @@ public class GreetingResource {
     @GET
     @Path("/about")
     public String about() {
-        String aboutMessage = "MyAPI version 0.2";
+        String aboutMessage = "MyAPI version 1.0";
         return aboutMessage;
     }
 
